@@ -1,0 +1,14 @@
+# Build output
+KeyboardLocker
+KeyboardLocker.app/
+
+# macOS
+.DS_Store
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+
+# Zip
+*.zip
