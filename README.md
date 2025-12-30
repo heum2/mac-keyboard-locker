@@ -6,6 +6,10 @@ A macOS menu bar app that blocks keyboard input while cleaning your MacBook keyb
 ![Swift](https://img.shields.io/badge/Swift-5.0+-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+## 🎬 Demo
+
+![Demo](assets/demo.gif)
+
 ## ✨ Features
 
 - 🔒 Blocks all keyboard input (mouse/trackpad still works)
@@ -13,9 +17,21 @@ A macOS menu bar app that blocks keyboard input while cleaning your MacBook keyb
 - 🖱️ Unlock only via mouse click (prevents accidental unlock while cleaning)
 - 📍 Menu bar icon shows lock status
 
+## 📸 Screenshots
+
+### Menu Bar Icon
+
+<img src="assets/menubar-unlocked.png" width="300">
+<img src="assets/menubar-locked.png" width="300">
+
+### Menu Options
+
+<img src="assets/menu-dropdown.png" width="300" alt="Menu dropdown">
+
 ## 📦 Installation
 
 ### Requirements
+
 - macOS 12.0 or later
 - Xcode Command Line Tools (`xcode-select --install`)
 
@@ -73,11 +89,11 @@ open KeyboardLocker.app
 
 ## 🚀 Usage
 
-| Action | Method |
-|--------|--------|
-| Lock | `⌘L` or click menu bar icon |
+| Action | Method                                   |
+| ------ | ---------------------------------------- |
+| Lock   | `⌘L` or click menu bar icon              |
 | Unlock | Click 🔒 in menu bar → "Unlock Keyboard" |
-| Quit | Menu bar → "Quit" |
+| Quit   | Menu bar → "Quit"                        |
 
 ## ⚠️ Notes
 
