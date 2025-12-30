@@ -22,8 +22,8 @@ A macOS menu bar app that blocks keyboard input while cleaning your MacBook keyb
 ### Build
 
 ```bash
-git clone https://github.com/heum2/KeyboardLocker.git
-cd KeyboardLocker
+git clone https://github.com/heum2/mac-keyboard-locker.git
+cd mac-keyboard-locker
 
 swiftc -o KeyboardLocker -framework Cocoa -framework Carbon KeyboardLocker.swift
 ```
